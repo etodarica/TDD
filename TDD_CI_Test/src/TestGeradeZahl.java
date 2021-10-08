@@ -30,5 +30,11 @@ class TestGeradeZahl {
 		//assertEquals(Object expected, Object actual)
 		assertEquals(false, ergebnis);
 	}
+	
+	@Test
+	void negativeZahl() {
+		boolean ergebnis = gz.testeZahl(-2);
+		assertFails(false, ergebnis);
+	}
 
 }
