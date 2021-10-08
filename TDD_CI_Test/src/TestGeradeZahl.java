@@ -9,7 +9,7 @@ class TestGeradeZahl {
 	/* 
 	@Test
 	
-	void test() {
+	public void test() {
 		fail("Not yet implemented");
 	}
 	*/
@@ -18,21 +18,21 @@ class TestGeradeZahl {
 	 * https://junit.org/junit5/docs/5.0.1/api/org/junit/jupiter/api/Assertions.html
 	 */
 	@Test
-	void geradeZahl() {
+	public void geradeZahl() {
 		boolean ergebnis = gz.testeZahl(4);
 		//assertEquals(Object expected, Object actual)
 		assertEquals(true, ergebnis);
 	}
 	
 	@Test
-	void ungeradeZahl() {
+	public void ungeradeZahl() {
 		boolean ergebnis = gz.testeZahl(3);
 		//assertEquals(Object expected, Object actual)
 		assertEquals(false, ergebnis);
 	}
 	
 	@Test
-	void negativeZahl() {
+	public void negativeZahl() {
 		boolean ergebnis = gz.testeZahl(-2);
 		assertFails(false, ergebnis);
 	}
