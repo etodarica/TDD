@@ -3,6 +3,11 @@
   <groupId>2_TDD_CI_Test</groupId>
   <artifactId>2_TDD_CI_Test</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <!-- https://adaprognotebook.blogspot.com/2013/02/maven-faq-file-encoding-has-not-been.html -->
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
   <!-- https://ao.ms/how-to-fix-package-org-junit-jupiter-api-does-not-exist/ -->
   <dependencies>
 
