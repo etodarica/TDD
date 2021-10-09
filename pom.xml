@@ -12,11 +12,9 @@
   <dependencies>
     <!-- add the junit dependency here -->
     <dependency>
-        <groupId>junit</groupId>
-	<!-- <groupId>org.junit.jupiter</groupId> -->
+	<groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-api</artifactId>
-	<version>${myproject.version}</version>
-        <!-- <version>5.7.0</version> -->
+	<!-- <version>${myproject.version}</version> -->
         <scope>test</scope>
         <!-- http://www.slf4j.org/codes.html#multiple_bindings -->
         <exclusions>
