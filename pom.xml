@@ -15,6 +15,7 @@
 	<groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-api</artifactId>
 	<!-- <version>${myproject.version}</version> -->
+	<version>5.7.0</version>
         <scope>test</scope>
         <!-- http://www.slf4j.org/codes.html#multiple_bindings -->
         <exclusions>
