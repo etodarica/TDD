@@ -10,7 +10,6 @@
   </properties>
   <!-- https://ao.ms/how-to-fix-package-org-junit-jupiter-api-does-not-exist/ -->
   <dependencies>
-
     <!-- add the junit dependency here -->
     <dependency>
         <groupId>org.junit.jupiter</groupId>
@@ -28,13 +27,6 @@
 	        <artifactId>log4j</artifactId>
 	      </exclusion>
 	    </exclusions> 
-    </dependency>
-    <!-- https://stackoverflow.com/questions/45175418/import-junit-jupiter-api-not-found -->
-    <dependency>
-	<groupId>org.junit.jupiter</groupId>
-	<artifactId>junit-jupiter-api</artifactId>
-	<version>5.0.0-M5</version>
-	<scope>test</scope>
     </dependency>
   </dependencies>
   <build>
