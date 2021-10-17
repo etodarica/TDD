@@ -3,7 +3,7 @@
 
 name: TDD - Java CI with Maven
 
-on: # definiert, WANN etwas gemacht werden soll
+on: # definiert, WANN etwas gemacht werden soll, also das EVENT
   push:
     branches: [ main ]
   pull_request:
