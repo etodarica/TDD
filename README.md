@@ -3,4 +3,3 @@
 Dieses Repository dient zum Testen von:
 - TDD
 - Continuous Integration mit GitHub Action
-- this is a test change
