@@ -16,7 +16,7 @@
         <artifactId>junit-jupiter-api</artifactId>
 	<!-- <version>${myproject.version}</version> -->
 	<version>5.7.0</version>
-        <!-- <scope>test</scope> -->
+        <scope>test</scope>
         <!-- http://www.slf4j.org/codes.html#multiple_bindings -->
         <exclusions>
 	      <exclusion> 
@@ -28,6 +28,16 @@
 	        <artifactId>log4j</artifactId>
 	      </exclusion>
 	    </exclusions> 
+    </dependency>
+    <dependency>  
+ 	<groupId>org.seleniumhq.selenium</groupId>  
+ 	<artifactId>selenium-java</artifactId>  
+ 	<version>3.141.59</version>  
+    </dependency>  
+    <dependency>
+ 	<groupId>io.github.bonigarcia</groupId>
+ 	<artifactId>webdrivermanager</artifactId>
+ 	<version>4.3.1</version>
     </dependency>
   </dependencies>
   <build>
