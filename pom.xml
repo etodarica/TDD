@@ -29,6 +29,7 @@
 	      </exclusion>
 	    </exclusions> 
     </dependency>
+    <!-- https://www.lambdatest.com/blog/selenium-github-actions-example/ -->
     <dependency>  
  	<groupId>org.seleniumhq.selenium</groupId>  
  	<artifactId>selenium-java</artifactId>  
