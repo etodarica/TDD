@@ -15,16 +15,16 @@ jobs: # here is defined, what should be done
     runs-on: windows-latest # GitHub supported VMs with (specific) operating systems versions
 
     steps: # listed with hyphens
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2 #This action checks-out your repository under $GITHUB_WORKSPACE, so your workflow can access it. source: https://github.com/actions/checkout
     - name: Set up JDK 11
-      uses: actions/setup-java@v2
+      uses: actions/setup-java@v2 # https://github.com/actions/setup-java
       with:
         java-version: '11'
         distribution: 'adopt'
         architecture: x64
         cache: maven
     - name: Build with Maven
-      run: mvn -B -e -X  package --file pom.xml
+      run: mvn -B -e -X  package --file pom.xml # -e -X for debugging and error outputs
       
   test:
       runs-on: windows-latest
