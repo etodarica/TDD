@@ -37,4 +37,4 @@ jobs: # here is defined, what should be done
           java-version: '11'
           cache: 'maven'
       - name: Test with Maven
-        run: mvn -B package --file pom.xml test
+        run: mvn clean test
